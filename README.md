@@ -1,6 +1,7 @@
 # VimeoDownloader
 
 A Java application that parses original quality video download links from Vimeo and supports direct downloading via multi-threaded aria2.
+# Install JDK 1.8+ to run java applications
 
 ![Screenshot](image/1767602475988.png)
 
