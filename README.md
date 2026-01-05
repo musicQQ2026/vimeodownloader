@@ -1,3 +1,17 @@
+This app can parse you the original vidoe download links on vimeo. you can get the possible highest quality videos from vimeo. See readme.docx!
+
+
+
+
+This is a java application, and the demo configuration files above are to run in Windows OS, if you want to run in Linux or MacOS, you need to write your own shell scripts. (It should be very similar like run.bat here, which can ONLY run on Windows)
+
+there's no source files here for now, if you need to talk details about this app with me, contact me at: 2653964552@qq.com
+
+
+
+how to RUN this app? get vimeodownloader-1.0.0.jar from https://github.com/musicQQ2026/vimeodownloader/releases/tag/musicQQ2026, and configure your conf files.
+ 
+
 1
 open cmd
 
