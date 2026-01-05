@@ -2,7 +2,7 @@
 
 A Java application that parses original quality video download links from Vimeo and supports direct downloading via multi-threaded aria2.
 
-![功能截图](images/1767602475988.png)
+![Screenshot](images/1767602475988.png)
 
 ## ✨ Core Features
 
