@@ -1,0 +1,7 @@
+proxy:
+  enabled: false
+  ip: "127.0.0.1"
+  # the http proxy port
+  #  port: 58309
+  #  port: 10809
+  port: 10809

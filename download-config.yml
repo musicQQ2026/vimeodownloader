@@ -1,0 +1,16 @@
+# download type, has to be HttpURLConnection or Aria2
+# if Aria2, then "aria2 download parameters" has to be set
+# if HttpURLConnection, then "aria2 download parameters" has no effect
+downloadType: Aria2
+# aria2 download parameters
+aria2:
+  maxConnection: 6
+  splitPiece: 6
+
+# if true:
+#   if R: has enough disk space and "localPath" sets to another drive,
+#   then RamDisk was used as a buffer drive
+useRamDisk: false
+
+# true: rename folder/files with ISRC, resolution and scan type
+renameFiles: true
