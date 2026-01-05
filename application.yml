@@ -1,0 +1,27 @@
+# Tomcat
+server:
+  port: 9776
+
+# Spring
+spring:
+  config:
+    import:
+      - download-config.yml
+      - proxy-config.yml
+  application:
+    name: vimeodownloader
+  profiles:
+    # evn
+    active: dev
+  datasource:
+    name: sqlite3
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:C:\Users\yourPCsUserName\AppData\Roaming\Mozilla\Firefox\Profiles\bo237zk2.default-xxxxxx\cookies.sqlite
+    username:
+    password:
+
+mybatis:
+  typeAliasesPackage: musicqq.vimeodownloader.domain
+  mapperLocations: classpath:mapper/*.xml
+
+extensionArr: mp4,mov,mkv,m4v,avi,wmv,mpg,mpeg,m2p,flv,ts,vob,3gp,asf,rmvb,rm,f4v
