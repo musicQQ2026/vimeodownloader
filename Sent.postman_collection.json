@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "8fbdd59c-1742-4704-942d-dfc2b419d5bd",
+		"name": "Sent",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41514374"
+	},
+	"item": [
+		{
+			"name": "Vimeo Copy 2",
+			"item": [
+				{
+					"name": "http://127.0.0.1:9776/vimeodownloader/getOriginalFileUrl?url=https://vimeo.com/969949577",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:9776/vimeodownloader/getOriginalFileUrl?url=https://vimeo.com/873177152",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "9776",
+							"path": [
+								"vimeodownloader",
+								"getOriginalFileUrl"
+							],
+							"query": [
+								{
+									"key": "url",
+									"value": "https://vimeo.com/873177152"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:9776/vimeodownloader/getOriginalFileUrlByList",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    \"https://vimeo.com/906333576\",\r\n    \"https://vimeo.com/1002032056\",\r\n    \"https://vimeo.com/852768636\",\r\n    \"https://vimeo.com/1007974615\",\r\n    \"https://vimeo.com/1010883018\",\r\n    \"https://vimeo.com/1010888548\",\r\n    \"https://vimeo.com/1008259513\",\r\n    \"https://vimeo.com/996092967\",\r\n    \"https://vimeo.com/995887812\",\r\n    \"https://vimeo.com/995887741\",\r\n    \"https://vimeo.com/986180191\",\r\n    \"https://vimeo.com/971162599\",\r\n    \"https://vimeo.com/959493621\",\r\n    \"https://vimeo.com/965235484\",\r\n    \"https://vimeo.com/965712295\",\r\n    \"https://vimeo.com/956289782\",\r\n    \"https://vimeo.com/950685354\",\r\n    \"https://vimeo.com/937633602\",\r\n    \"https://vimeo.com/964255177\",\r\n    \"https://vimeo.com/964252933\"\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:9776/vimeodownloader/getOriginalFileUrlByList",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "9776",
+							"path": [
+								"vimeodownloader",
+								"getOriginalFileUrlByList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:9776/vimeodownloader/exportListByUrlList",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    \"https://vimeo.com/906333576\",\r\n    \"https://vimeo.com/1002032056\",\r\n    \"https://vimeo.com/852768636\",\r\n    \"https://vimeo.com/1007974615\",\r\n    \"https://vimeo.com/1010883018\",\r\n    \"https://vimeo.com/1010888548\",\r\n    \"https://vimeo.com/1008259513\",\r\n    \"https://vimeo.com/996092967\",\r\n    \"https://vimeo.com/995887812\",\r\n    \"https://vimeo.com/995887741\",\r\n    \"https://vimeo.com/986180191\",\r\n    \"https://vimeo.com/971162599\",\r\n    \"https://vimeo.com/959493621\",\r\n    \"https://vimeo.com/965235484\",\r\n    \"https://vimeo.com/965712295\",\r\n    \"https://vimeo.com/956289782\",\r\n    \"https://vimeo.com/950685354\",\r\n    \"https://vimeo.com/937633602\",\r\n    \"https://vimeo.com/964255177\",\r\n    \"https://vimeo.com/964252933\"\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:9776/vimeodownloader/exportListByUrlList",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "9776",
+							"path": [
+								"vimeodownloader",
+								"exportListByUrlList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:9776/vimeodownloader/exportListByUserList",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    \"https://vimeo.com/siseon/videos\",\r\n    \"https://vimeo.com/capracolour/videos\"\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:9776/vimeodownloader/exportListByUserList",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "9776",
+							"path": [
+								"vimeodownloader",
+								"exportListByUserList"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
