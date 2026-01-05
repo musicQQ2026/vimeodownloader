@@ -91,7 +91,7 @@ After starting, the service will be available at `http://127.0.0.1:9776` by defa
 A: The application relies on Firefox's cookies to access Vimeo. You need to ensure you are logged into Vimeo via Firefox and have correctly configured the path in `application.yml`.
 
 **Q: Is the source code available?**  
-A: Currently, only the runnable application is published in this repository. For detailed discussion about the application, please contact: `2653964552@qq.com`
+A: Currently, only the runnable application is published in this repository. For detailed discussion about the application, please contact: `**2653964552@qq.com**`
 
 
 （中文版）
@@ -186,7 +186,7 @@ A: Currently, only the runnable application is published in this repository. For
 A: 程序依赖 Firefox 的 cookie 来访问 Vimeo。你需要确保 Firefox 已登录 Vimeo，并正确配置 `application.yml` 中的路径。
 
 **Q: 没有源代码吗？**  
-A: 当前仓库仅发布可运行的程序。如需讨论程序细节，请联系：`2653964552@qq.com`
+A: 当前仓库仅发布可运行的程序。如需讨论程序细节，请联系：`**2653964552@qq.com**`
 
 ---
 
