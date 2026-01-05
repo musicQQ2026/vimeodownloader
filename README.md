@@ -1,6 +1,16 @@
+This program can parse the original video download links for Vimeo and help you download videos directly via multi-threaded aria2. It supports parsing individual Vimeo links, such as:
+https://vimeo.com/1146441593
+
+After parsing:
+https://vod-progressive-ak.vimeocdn.com/xxxx -- actual download link
+[performance]illit‘oops!’_@_spotify_performance_video.mp4
+2.34 GB (2,514,657,088 bytes)
+
+It also supports parsing all video lists from multiple accounts at once and returns a downloadable Excel file, where each sheet contains the download information for all videos from one account.
+
+
+--------------------------------------------------------------
 This app can parse you the original vidoe download links on vimeo. you can get the possible highest quality videos from vimeo. See readme.docx!
-
-
 
 
 This is a java application, and the demo configuration files above are to run in Windows OS, if you want to run in Linux or MacOS, you need to write your own shell scripts. (It should be very similar like run.bat here, which can ONLY run on Windows)
@@ -77,3 +87,12 @@ if the "enabled: true" is turned on, need a connectable proxy server to do http 
 ip: "127.0.0.1"
 NOTED: this is the http proxy port, not socks port, if you dont know what port you are using, open your proxy soft to confirm which http port is being monitored.
 port: 10809
+
+
+本程序可以解析出vimeo的原视频下载链接，可以帮你通过多线程aria2方式直接下载视频，可以支持解析单个vimeo链接，如：https://vimeo.com/1146441593
+解析后：
+https://vod-progressive-ak.vimeocdn.com/xxxx    --  实际的下载链接
+[performance]__illit__‘oops!’_@_spotify_performance_video.mp4
+2.34 GB (2,514,657,088 bytes)
+
+可以支持一次解析多个账号的全部视频列表，返回一个可下载的excel文件，每个sheet包含一个账号的全部视频下载信息
