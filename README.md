@@ -101,6 +101,7 @@ A: Currently, only the runnable application is published in this repository. For
 
 -----------------------------------
 ## 🚀（中文版） 这是一个Java应用程序，用于解析Vimeo视频的原画质下载链接，并支持通过多线程aria2直接下载。
+# Install JDK 1.8+ to run java applications
 
 ## ✨ 核心功能
 
