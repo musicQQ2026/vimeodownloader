@@ -95,7 +95,8 @@ A: Currently, only the runnable application is published in this repository. For
 **2653964552@qq.com**
 
 
-（中文版）
+##（中文版）
+
 这是一个Java应用程序，用于解析Vimeo视频的原画质下载链接，并支持通过多线程aria2直接下载。
 
 ## ✨ 核心功能
